@@ -1,0 +1,9 @@
+.search-result-name {
+    font-weight: 600;
+}
+
+.search-results {
+    color: grey;
+    font-size: 9pt;
+    vertical-align: middle;
+}

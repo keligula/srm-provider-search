@@ -1,0 +1,30 @@
+.table-header {
+    font-size: 10pt;
+    font-weight: lighter;
+    color: grey;
+    padding-top: 25px;
+}
+
+td.search-result-name {
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+td.search-results {
+    color: grey;
+    font-size: 9pt;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.avatar {
+    margin-right: 10px;
+}
+
+.search-results-footer {
+    color: grey;
+    font-size: 9pt;
+    vertical-align: middle;
+    padding-right: 10px;
+    text-align: right;
+}
