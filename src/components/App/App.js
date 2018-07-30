@@ -66,7 +66,7 @@ export default class App extends Component {
       content = (
         <div>
           <PeopleTable header="People" data={peopleTableEntries} />
-          <OrganizationsTable header="Organization" data={peopleTableEntries} />
+          <OrganizationsTable header="Organization" data={orgTableEntries} />
         </div>
       );
     } else {

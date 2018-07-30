@@ -9,7 +9,10 @@ export default class PeopleService {
     const results = [];
 
     for (let r of peopleData) {
-      if (r.person_name.toLowerCase().includes(search.toLowerCase())) {
+      if (
+        r.person_name.toLowerCase().includes(search.toLowerCase()) ||
+        r.organization_name.toLowerCase().includes(search.toLowerCase())
+      ) {
         results.push(r);
       }
     }
